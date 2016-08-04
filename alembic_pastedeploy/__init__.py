@@ -72,7 +72,7 @@ class PasteSupportedConfig(alembic_config.Config):
                 # default values are not overwritten
                 if key in file_config._defaults:
                     continue
-                file_config._defaults[key] = value
+                file_config._defaults[file_config.optionxform(key)] = value
         return file_config
 
     def update_defaults(self, new_defaults, overwrite=True):
