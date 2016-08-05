@@ -4,7 +4,7 @@ import os
 long_description = open('README.rst').read()
 
 setup(name='alembic_pastedeploy',
-      version='0.0.1',
+      version='0.0.2',
       description="Let alembic read pastedeploy-flavored ini config files.",
       long_description=long_description,
       classifiers=[
