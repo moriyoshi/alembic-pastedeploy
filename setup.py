@@ -1,7 +1,7 @@
 from setuptools import setup, find_packages
 import os
 
-long_description = ''
+long_description = open('README.rst').read()
 
 setup(name='alembic_pastedeploy',
       version='0.0.1dev0',
