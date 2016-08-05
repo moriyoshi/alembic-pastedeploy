@@ -5,7 +5,7 @@ long_description = open('README.rst').read()
 
 setup(name='alembic_pastedeploy',
       version='0.0.1dev0',
-      description="",
+      description="Let alembic read pastedeploy-flavored ini config files.",
       long_description=long_description,
       classifiers=[
         'License :: OSI Approved :: MIT License',
@@ -22,7 +22,7 @@ setup(name='alembic_pastedeploy',
       keywords='',
       author='Moriyoshi Koizumi',
       author_email='mozo@mozo.jp',
-      url='https://github.com/moriyoshi/alembic_pastedeploy',
+      url='https://github.com/moriyoshi/alembic-pastedeploy',
       license='MIT',
       packages=find_packages(),
       include_package_data=True,
